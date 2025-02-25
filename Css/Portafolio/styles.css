@@ -1,3 +1,4 @@
+/* Estilos generales */
 body {
     font-family: 'Roboto', sans-serif;
     margin: 0;
@@ -12,18 +13,12 @@ body {
     margin: 0 auto;
 }
 
+/* Header */
 header {
     background: #4CAF50;
     color: white;
     padding: 20px 0;
     text-align: center;
-}
-
-.profile-img {
-    width: 150px;
-    height: 150px;
-    border-radius: 50%;
-    margin-bottom: 10px;
 }
 
 header h1 {
@@ -52,7 +47,7 @@ nav ul li a {
     font-weight: bold;
 }
 
-/* Secciones */
+/* Secciones comunes */
 .section {
     padding: 40px 0;
 }
@@ -61,6 +56,38 @@ nav ul li a {
     font-size: 2rem;
     margin-bottom: 20px;
     color: #4CAF50;
+    text-align: center; /* Centrar el título de la sección */
+}
+
+/* Sección Sobre mí */
+#about {
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.about-content {
+    display: flex;
+    align-items: flex-start;
+    gap: 30px;
+}
+
+.profile-img {
+    width: 250px;
+    height: 250px;
+    border-radius: 50%;
+    border: 3px solid #4CAF50;
+    flex-shrink: 0;
+}
+
+.about-content p {
+    margin: 0;
+    text-align: justify;
+}
+
+/* Sección Experiencia */
+#experience {
+    max-width: 800px; /* Mismo ancho máximo que "Sobre mí" */
+    margin: 0 auto; /* Centrar la sección */
 }
 
 .experience-item {
@@ -77,9 +104,18 @@ nav ul li a {
     font-size: 0.9rem;
 }
 
+/* Sección Habilidades */
+#skills {
+    max-width: 800px; /* Mismo ancho máximo que "Sobre mí" */
+    margin: 0 auto; /* Centrar la sección */
+}
+
 .skills-list {
     list-style: none;
     padding: 0;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center; /* Centrar las habilidades */
 }
 
 .skills-list li {
@@ -91,6 +127,13 @@ nav ul li a {
     border-radius: 5px;
 }
 
+/* Sección Contacto */
+#contact {
+    max-width: 800px; /* Mismo ancho máximo que "Sobre mí" */
+    margin: 0 auto; /* Centrar la sección */
+    text-align: center; /* Centrar el contenido */
+}
+
 .linkedin-link {
     display: inline-block;
     background: #0077B5;
@@ -98,8 +141,10 @@ nav ul li a {
     padding: 10px 20px;
     text-decoration: none;
     border-radius: 5px;
+    margin: 5px; /* Espacio entre enlaces */
 }
 
+/* Footer */
 footer {
     background: #333;
     color: white;
