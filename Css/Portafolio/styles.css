@@ -1,4 +1,3 @@
-/* Estilos generales */
 body {
     font-family: 'Roboto', sans-serif;
     margin: 0;
@@ -13,7 +12,6 @@ body {
     margin: 0 auto;
 }
 
-/* Header */
 header {
     background: #4CAF50;
     color: white;
@@ -47,7 +45,6 @@ nav ul li a {
     font-weight: bold;
 }
 
-/* Secciones comunes */
 .section {
     padding: 40px 0;
 }
@@ -56,10 +53,9 @@ nav ul li a {
     font-size: 2rem;
     margin-bottom: 20px;
     color: #4CAF50;
-    text-align: center; /* Centrar el título de la sección */
+    text-align: center;
 }
 
-/* Sección Sobre mí */
 #about {
     max-width: 800px;
     margin: 0 auto;
@@ -84,10 +80,9 @@ nav ul li a {
     text-align: justify;
 }
 
-/* Sección Experiencia */
 #experience {
-    max-width: 800px; /* Mismo ancho máximo que "Sobre mí" */
-    margin: 0 auto; /* Centrar la sección */
+    max-width: 800px; 
+    margin: 0 auto; 
 }
 
 .experience-item {
@@ -104,10 +99,9 @@ nav ul li a {
     font-size: 0.9rem;
 }
 
-/* Sección Habilidades */
 #skills {
-    max-width: 800px; /* Mismo ancho máximo que "Sobre mí" */
-    margin: 0 auto; /* Centrar la sección */
+    max-width: 800px; 
+    margin: 0 auto; 
 }
 
 .skills-list {
@@ -115,7 +109,7 @@ nav ul li a {
     padding: 0;
     display: flex;
     flex-wrap: wrap;
-    justify-content: center; /* Centrar las habilidades */
+    justify-content: center; 
 }
 
 .skills-list li {
@@ -127,11 +121,10 @@ nav ul li a {
     border-radius: 5px;
 }
 
-/* Sección Contacto */
 #contact {
-    max-width: 800px; /* Mismo ancho máximo que "Sobre mí" */
-    margin: 0 auto; /* Centrar la sección */
-    text-align: center; /* Centrar el contenido */
+    max-width: 800px; 
+    margin: 0 auto; 
+    text-align: center; 
 }
 
 .linkedin-link {
@@ -141,10 +134,9 @@ nav ul li a {
     padding: 10px 20px;
     text-decoration: none;
     border-radius: 5px;
-    margin: 5px; /* Espacio entre enlaces */
+    margin: 5px; 
 }
 
-/* Footer */
 footer {
     background: #333;
     color: white;
